@@ -1,0 +1,85 @@
+/*
+
+filename: lab04.css
+
+author: Jack Goodsell
+
+created: 27/03/2026
+
+last modified: 27/03/2026
+
+description: Styles for the lab04 HTML files
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+    
+
+h2 { 
+    color: rgb(0,128,128); 
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+
+* {color: #2F4F4F;}
+* { font-family: calibri, sans-serif; }     
+
+aside, footer { font-style: italic; }    
+
+h1, h2, h3, { font-family: arial, sans-serif; }
+
+ table, th, td {
+    border: 1px solid black;
+}
+
+#headingsH3 {
+    color: rgb(255, 0, 0);
+}
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }   
+
+.rightalign {
+          text-align: right;
+         }
+
+ol ul { 
+    list-style-type : square; 
+    padding-left: 20px;
+}
+
+#images {
+         text-align : center;  /* careful: center has US spelling */
+         }
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+         
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }      
+
+
+.vertical-line {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 300vh;
+    background-color: darkblue;
+}
