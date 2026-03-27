@@ -76,8 +76,8 @@ nav a {
 
 
 .vertical-line {
-    position: fixed;
-    left: 0;
+    position: absolute;
+    left: 0; 
     top: 0;
     width: 2px;
     height: 300vh;
